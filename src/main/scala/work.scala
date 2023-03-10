@@ -29,9 +29,9 @@ object work extends App {
   for (b <- arr123) print(b + " ")
 
   def fibs(num: Int): BigInt = {
-    def go(num: Int, acc: BigInt = 1): BigInt = {
-      if (num > 2) go(num - 1, acc) + go(num - 2, acc)
-      else acc
+    def go(num: Int): BigInt = {
+      if (num > 2) go(num - 1) + go(num - 2)
+      else 1
     }
 
     go(num)

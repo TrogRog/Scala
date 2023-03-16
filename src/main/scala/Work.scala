@@ -2,7 +2,7 @@ import scala.collection.mutable.ListBuffer
 import scala.io.StdIn.readInt
 import scala.util.Random
 
-object work extends App {
+object Work extends App {
 
 
   // ========================================================
